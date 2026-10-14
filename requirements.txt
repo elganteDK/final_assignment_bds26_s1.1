@@ -1,0 +1,13 @@
+pandas
+numpy
+geopandas
+matplotlib
+seaborn
+scipy
+scikit-learn
+libpysal
+esda
+mapclassify
+jupyter
+ipykernel
+nbconvert

@@ -1,0 +1,10 @@
+.venv/
+f_venv/
+.ipynb_checkpoints/
+f_a_bds26_v1.2_with_part3_backup.ipynb
+f_a_bds26_v1.2 - backup.ipynb
+
+
+# Data folder (download raw data separately, see README.md)
+data/
+.claude
