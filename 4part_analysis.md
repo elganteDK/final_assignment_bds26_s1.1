@@ -19,7 +19,7 @@ The strongest message from the project is that **medical technology capability i
 
 The project shows concentration in **two related senses**.
 
-First, Part 1 shows that U.S. patenting is highly uneven in general. Large metropolitan counties tend to combine **high patent volume, diversified technology portfolios, and broader innovation ecosystems**. In the clustering analysis, the most attractive general-purpose innovation environments are the **metropolitan high-tech hubs**, because they combine deep talent pools with broad spillover opportunities across technologies.
+First, Part 1 shows that U.S. patenting is highly uneven in general. Large metropolitan counties tend to combine **high patent volume, diversified technology portfolios, and broader innovation ecosystems**. In the county profile and archetype analysis, the most attractive general-purpose innovation environments are the **metropolitan high-tech hubs** (the electronics / ICT archetype: Santa Clara, Middlesex, San Diego, Los Angeles), because they combine deep talent pools with broad spillover opportunities across technologies. **Santa Clara** stands out as the one very large county that is also specialized, a deep computing and semiconductor hub. Most other large metros are diversified, with a mix close to the national average. Highly specialized or distinct counties are mostly small, single-firm niches and should be checked at firm level before being treated as regional strengths.
 
 Second, Part 3 shows that **A61 medical technology is geographically clustered**, not randomly scattered. By 2000-2009:
 
@@ -58,7 +58,7 @@ The key result is that **specialization is broadening slightly rather than explo
 - counties specialized in A61 (**LQ > 1**) increase from **266 to 280**,
 - and the counties with the biggest gains are not only the largest hubs.
 
-Among the strongest risers are:
+The ranking covers **590 counties** with at least 20 patents in each decade and at least 10 A61 patents in one of them. Among the strongest risers are:
 
 - **Highland, OH** (LQ **0.60 -> 7.26**),
 - **Sanpete, UT** (**2.79 -> 6.52**),
@@ -80,63 +80,42 @@ Among the strongest fallers are:
 - **Randolph, NC** (**2.14 -> 0.26**),
 - **Warren, KY** (**2.20 -> 0.58**).
 
+Most of these extremes are **small A61 counties** (about 10-25 A61 patents in the 2000s), so a few patents move the LQ a lot. The infographic therefore shows a stricter view: counties with **at least 30 A61 patents**. There the largest rises are **Sherburne MN, Wright MN, Orleans LA, Dorchester SC, Anoka MN and Missoula MT**, and the largest falls are **Yamhill OR, Stearns MN, Boone IN, Baltimore MD, Washington TN and Hancock IN**. The Minnesota risers (Sherburne, Wright, Anoka) all sit in the Minneapolis-St Paul medical-device region, which fits the "spreading outward from hubs" story.
+
 ### What this means
 
 This is important because **rising specialization is often a better early signal than absolute size alone**. A county that is becoming more A61-focused may be building a local cluster, attracting suppliers, or deepening a niche that is not yet obvious in national rankings. That does not automatically make it investable, but it does make it worth investigating.
 
 The reverse is also true: falling specialization does not necessarily mean a county is weak overall, but it does suggest that **medical technology is becoming less central to its local innovation profile**.
 
-## 3. Which technologies appear to be emerging, growing, diffusing, or mature
+## 3. Where each technology stands on its diffusion S-curve
 
-The life-cycle analysis compares **113 CPC technology classes** between the 1990s and the 2000s using two dimensions:
+Part 3 (section 3.7b) fits the same logistic S-curve used for A61 to **all 127 CPC 3-digit classes**, using the share of counties with at least 10 patents in each decade from the 1970s to the 2000s. Each class gets a stage:
 
-- **growth** in patent counts, and
-- **breadth** across counties.
+- **72 post-inflection**: the fastest geographic spread is behind them, but the ceiling is not yet reached,
+- **36 pre-inflection**: no slowdown yet,
+- **13 saturating**: at least 90% of their fitted ceiling reached,
+- **6 sparse**: too few adopting counties to fit a curve.
 
-The distribution of stages is:
+### A61: established and still growing in volume, but its spread is slowing
 
-- **45 mature**
-- **39 growing**
-- **18 emerging**
-- **11 diffusing**
+- A61 is the **second most widespread class** in 2000-09 (19.0% of counties); only the cross-cutting Y10 tag is wider.
+- Its S-curve has its inflection around **1991**, and the 2000s share is about **77%** of the fitted ceiling (about 25% of counties), so it is **post-inflection**.
+- Patent volume still grows: **76,864 -> 100,525** fractional patents between the 1990s and the 2000s (**+31%**), and in-decade adopting counties rise from **504** to **546**.
 
-### Growing technologies
+So A61 is not a declining technology: output keeps rising, but it now comes mostly from counties that already patent in the field, not from many new ones.
 
-For the investor audience, the most important result is that **A61 itself is a growing technology**, not a mature one:
+### G06 (computing): still spreading
 
-- A61 rises from **76,864** to **100,525** patents,
-- growth is **+31%**,
-- breadth rises from **504** to **546** counties,
-- and its stage is classified as **growing**.
+- G06 is **pre-inflection**: its share of adopting counties more than tripled, from **4.2%** to **13.7%**, with no slowdown yet.
+- Its patents grew much faster than A61's: **42,598 -> 119,166** (**+180%**).
+- With only four decades, the fitted ceiling for G06 sits on the 100% bound and cannot be estimated; the robust signal is the raw growth, not the fitted numbers.
 
-The fallback technology **G06 (computing)** is also **growing**, but much faster:
+This matters because computing-related technologies are expanding faster and may increasingly overlap with medical devices, software, diagnostics and platform plays. Other pre-inflection classes include H01 (electric elements), G01 (measuring) and B60 (vehicles).
 
-- **42,598 -> 119,166** patents,
-- **+180%** growth,
-- breadth **278 -> 427** counties.
+### What the stages mean for investors
 
-That matters because it suggests that **medical technology is expanding**, but computing-related technologies are expanding even faster and may increasingly overlap with medical devices, software, diagnostics, and platform plays.
-
-### Emerging technologies
-
-The fastest-growing technologies that are still relatively narrow geographically are:
-
-- **C40**
-- **F03**
-- **F05**
-- **B24**
-- **C30**
-- **F15**
-- **C25**
-- **A43**
-
-For investors, those are the classes to watch for **specialized, earlier-stage opportunity**: fast growth is present, but the activity is not yet broad enough to look fully established.
-
-### Diffusing and mature technologies
-
-The **diffusing** group is smaller (**11 classes**) and represents technologies whose growth is no longer especially fast but whose county footprint is still widening. That pattern matters because it often signals **standardization or transfer into new regions**, which can create operational or supply-chain opportunities even if the frontier excitement has cooled.
-
-The largest single group is **mature** (**45 classes**). Mature classes are not necessarily unattractive, but they are less likely to deliver the same combination of rapid growth and new geographic expansion. For investors, they are more relevant for **incremental innovation, process improvement, consolidation, or infrastructure plays** than for rapid capability emergence.
+**Pre-inflection** classes are where geographic spread is still accelerating: more room for new locations and earlier-stage opportunities. **Post-inflection** classes such as A61 are established: the geography is largely set, and value comes from deepening capability in existing hubs. **Saturating** classes are more relevant for incremental innovation, process improvement and consolidation than for new regional expansion.
 
 ## 4. What the key maps, charts, and models say together
 
@@ -203,17 +182,17 @@ The most attractive next step is often not the core hub county itself, but the *
 
 ### 3. Use rising A61 specialization as an early-warning indicator
 
-Counties such as **Highland, OH; Sanpete, UT; Pulaski, IN; and Jackson, IL** deserve investor attention not because they are automatically superior, but because their innovation mix is shifting toward medical technology. That kind of shift can reveal new niche suppliers, startup formation, or corporate-university linkages before they become obvious in national rankings.
+Counties with a solid A61 base and rising LQ, such as **Sherburne, Wright and Anoka (MN), Orleans (LA) and Dorchester (SC)**, deserve investor attention not because they are automatically superior, but because their innovation mix is shifting toward medical technology. Smaller risers such as **Highland, OH** or **Sanpete, UT** are worth a look too, but with only 10-25 A61 patents they should be checked at firm level first. That kind of shift can reveal new niche suppliers, startup formation, or corporate-university linkages before they become obvious in national rankings.
 
 ### 4. Prioritize places with R&D workforce depth over places that are merely manufacturing-heavy
 
-The predictive models show that **R&D employment** and **firm density** matter more than manufacturing share. For investors, that means a county with strong scientific and engineering labor is a better bet for future inventive output than one that is simply industrial. In practice, this is a strong argument for screening places with high R&D intensity even when their current patent totals still look modest.
+The predictive models show that **R&D employment** and **firm density** matter more than manufacturing share. For investors, that means a county with strong scientific and engineering labor shows a stronger signal of inventive capacity than one that is simply industrial (the model shows associations, not forecasts). In practice, this is a strong argument for screening places with high R&D intensity even when their current patent totals still look modest.
 
 ## Final conclusion
 
 For technology investors, the project does **not** support a story of broad, even national convergence in medical technology. It supports a more selective view:
 
-- A61 is **growing**, but growth is increasingly concentrated in and around existing hubs.
+- A61 is **past its inflection**: patent volume still grows, but new growth is increasingly concentrated in and around existing hubs.
 - Spatial clustering is strong and persistent, so location remains a real strategic variable.
 - Some counties are becoming more specialized fast enough to justify early attention.
 - The best leading indicators of patenting are **knowledge-intensive local capacity** and **dense ecosystems**, not manufacturing weight alone.
