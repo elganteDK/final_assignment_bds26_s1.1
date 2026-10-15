@@ -19,7 +19,9 @@ The strongest message from the project is that **medical technology capability i
 
 The project shows concentration in **two related senses**.
 
-First, Part 1 shows that U.S. patenting is highly uneven in general. Large metropolitan counties tend to combine **high patent volume, diversified technology portfolios, and broader innovation ecosystems**. In the county profile and archetype analysis, the most attractive general-purpose innovation environments are the **metropolitan high-tech hubs** (the electronics / ICT archetype: Santa Clara, Middlesex, San Diego, Los Angeles), because they combine deep talent pools with broad spillover opportunities across technologies. **Santa Clara** stands out as the one very large county that is also specialized, a deep computing and semiconductor hub. Most other large metros are diversified, with a mix close to the national average. Highly specialized or distinct counties are mostly small, single-firm niches and should be checked at firm level before being treated as regional strengths.
+First, Part 1 shows that U.S. patenting is highly uneven in general. Large metropolitan counties tend to combine **high patent volume, diversified technology portfolios, and broader innovation ecosystems**. In the county profile and archetype analysis, the most attractive general-purpose innovation environments are the **metropolitan high-tech hubs** associated with the **ICT-oriented archetype** and, in the clustering step, the **ICT-hub** segment (for example **Santa Clara, Middlesex, San Diego, and Los Angeles**), because they combine deep talent pools with broad spillover opportunities across technologies. **Santa Clara** stands out as the one very large county that is also specialized, a deep computing and semiconductor hub. Most other large metros are diversified, with a mix close to the national average. Highly specialized or distinct counties are mostly small, single-firm niches and should be checked at firm level before being treated as regional strengths.
+
+The new **K-means step on archetype weights** sharpens that picture without changing it. Instead of clustering counties on all raw technology shares, the project first expresses each county as a mix of archetypes and then groups counties by those mixes. That produces **five readable county types**: **mechanical core, mixed metros, ICT hubs, chemicals-led, and textiles-led**. For investors, this is useful because it separates broad-purpose innovation environments from narrower industrial niches. The important caveat is that these are **practical segments of a continuum**, not perfectly distinct natural groups.
 
 Second, Part 3 shows that **A61 medical technology is geographically clustered**, not randomly scattered. By 2000-2009:
 
@@ -125,6 +127,10 @@ The strongest contribution of the project is not any single statistic. It is the
 
 The map panels show that medical-technology activity is concentrated in **connected regional hubs**, not evenly spread across the country. The local Moran map makes this especially clear: high-patenting counties are clustered next to other high-patenting counties, while low-activity counties also cluster together.
 
+### The county typology
+
+The new clustering layer adds a second way to read county differences. **K-means on the archetype weights** groups counties into five interpretable types: **mechanical core, mixed metros, ICT hubs, chemicals-led, and textiles-led**. This does not overturn the earlier conclusion that county technology profiles form a continuum. Instead, it creates a **usable screening typology**. For investors, **ICT hubs** and **mixed metros** are the broadest search spaces for scalable technology opportunities, while **chemicals-led**, **textiles-led**, and parts of the **mechanical core** are more likely to represent specialized industrial bets that require closer firm-level validation.
+
 ### The diffusion S-curve
 
 The diffusion curve shows that A61 is in **late growth / early maturity**:
@@ -198,3 +204,7 @@ For technology investors, the project does **not** support a story of broad, eve
 - The best leading indicators of patenting are **knowledge-intensive local capacity** and **dense ecosystems**, not manufacturing weight alone.
 
 The investment implication is straightforward: **build core relationships in established medical-technology hubs, use model-based and specialization-based screens to find adjacent rising counties, and treat diffusion as an expansion outward from strong ecosystems rather than as a national equalization process.**
+
+The added county typology strengthens that conclusion: not all inventive places play the same role. **ICT hubs** and **mixed metros** are the most attractive starting points for broad technology sourcing, while the more specialized cluster types can still matter, but usually as targeted niche opportunities rather than as general-purpose innovation ecosystems.
+
+The project also gives a measured reason to take **A61 itself** seriously as an investment domain. The class is already large, still growing, and strongly clustered in robust innovation ecosystems: it is the **second most widespread class**, reaches **19.0%** of counties at the adoption threshold, records **100,525** fractional patents in 2000-09, and grows **31%** from the 1990s to the 2000s. That supports the view that medical technology is a credible and still-expanding field for investor attention. But the evidence does **not** prove that A61 will generate superior financial returns on its own. The project measures patenting, specialization, diffusion, and spatial concentration, not company quality, margins, exits, reimbursement risk, or regulatory risk. So the strongest defensible conclusion is that A61 looks like an **attractive screening domain**, especially in strong hubs and related ICT-rich ecosystems, rather than a guaranteed high-return investment category.

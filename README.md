@@ -5,7 +5,7 @@ This repository contains a final module assignment that studies how technologica
 The project combines:
 
 - **technological specialization** using county-level location quotients (LQ),
-- **county technology profiles (PCA + archetypal analysis)** based on CPC 3-digit patent profiles,
+- **county technology profiles and typology (PCA + archetypal analysis + K-means on AA weights)** based on CPC 3-digit patent profiles,
 - **predictive modelling**
 
 - `f_a_bds26_v1.2.ipynb` - main notebook for Parts 1 to 3 of the analysis
@@ -18,7 +18,7 @@ The project combines:
 
 ### Part 1 - Technological specialization and county profiles
 
-Builds county x CPC 3-digit patent profiles for the 1990-2000 study window and computes location quotients. A z-scored PCA and archetypal analysis (with and without PCA) test whether county profiles are archetypal. They form a continuum from rural-mechanical to high-tech, with small textile and chemical niches, rather than a few distinct types. Dominant archetypes are mapped, and counties are ranked as highly specialized (HHI), diversified (entropy) or technologically distinct (z-score distance).
+Builds county x CPC 3-digit patent profiles for the 1990-2000 study window and computes location quotients. A z-scored PCA and archetypal analysis (with and without PCA) test whether county profiles are archetypal. They form a continuum from rural-mechanical to high-tech, with small textile and chemical niches, rather than a few distinct natural groups. A second step then runs **K-means on the archetype weights** to create a practical county typology with five readable segments: **mechanical core, mixed metros, ICT hubs, chemicals-led, and textiles-led**. Dominant archetypes and archetype-mix clusters are mapped, and counties are ranked as highly specialized (HHI), diversified (entropy) or technologically distinct (z-score distance).
 
 ### Part 2 - Predicting patenting activity
 
@@ -88,6 +88,7 @@ The notebook was authored with **Python 3.12.1** and uses packages listed in `re
 Key outputs from the project include:
 
 - county technology archetypes,
+- county typology clusters based on archetype mixes,
 - specialization comparisons across counties,
 - predictive model evaluation metrics,
 - diffusion and Moran's I summaries for A61,
